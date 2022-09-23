@@ -132,3 +132,50 @@ figure p {
     text-align: right;
     font-weight: bold;
 }
+.call_container{
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+.call_to_action{
+    display: flex;
+    width: 70%;
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.call_to_action_text{
+    color:#F9faf8;
+    width: 60%;
+}
+.call_to_action_text p{
+    margin: 0px;
+}
+.call_to_action_text .call{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sign_up_button{
+    height: 3rem;
+    width: 6rem;
+    background-color: #3882f6;
+    border:3px solid white;
+    border-radius: 25px;
+    text-align: center;
+    color:#F9faf8;
+}
+
+.sign_up_button:hover{
+    background-color: #367def;
+}
+footer{
+    display: flex;
+    background-color: #1f2937;
+    height: 6rem;
+    align-items: center;
+    justify-content: center;
+    color:#F9faf8
+}
