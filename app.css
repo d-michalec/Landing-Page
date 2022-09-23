@@ -1,0 +1,115 @@
+header {
+    margin-top: 1rem;
+    color: #F9faf8;
+    background-color: #1f2937;
+    height: 30%;
+}
+
+nav {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    background-color: #1f2937;
+    color: #F9faf8;
+    margin-bottom: 3%;
+}
+
+.header_logo {
+    font-size: 24px;
+}
+
+.header_navigation {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_navigation a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.container_hero {
+    display: flex;
+    height: 15rem;
+    width: 70%;
+    margin: auto;
+    padding: 5rem;
+}
+
+.container_hero .description {
+    width: 50%;
+}
+
+.container_hero .image {
+    display: flex;
+    background-color: grey;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.description_bold {
+    width: 70%;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.description_text {
+    font-size: 18px;
+    width: 80%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero_signup {
+    color: #F9faf8;
+    background-color: #3882f6;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.hero_signup:hover {
+    background-color: #367def;
+    box-shadow: 1px 1px 1px #F9faf8;
+}
+
+.container_main {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    background-color: white;
+    color: #1f2937;
+}
+
+.main_title {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+}
+
+.main_images {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    width: 120px;
+}
+
+figure img {
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+figure p {
+    text-align: center;
+}
