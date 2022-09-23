@@ -113,3 +113,22 @@ figure img {
 figure p {
     text-align: center;
 }
+
+.container_quote{
+    margin-top: 10rem;
+    height: 15rem;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+.quote{
+    width: 38%;
+    justify-content: center;
+    font-style: light italic;
+    font-size: 27px;
+}
+.author{
+    text-align: right;
+    font-weight: bold;
+}
